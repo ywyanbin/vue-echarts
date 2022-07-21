@@ -1,4 +1,4 @@
-# demo
+# demo 关于Echarts的应用
 
 ## Project setup
 ```
