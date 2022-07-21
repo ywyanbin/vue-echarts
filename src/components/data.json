@@ -1,0 +1,140 @@
+{
+  "code": 0,
+  "codeDesc": "success",
+  "data": {
+    "Response": {
+      "RequestId": "6481d078-1a1d-4adb-ab9f-169fc48e5f22",
+      "Result": [
+        {
+          "Id": "jcgl_log_namespace_6yo3keyl_ms",
+          "Name": "jcgl-log",
+          "Type": "ms",
+          "NamespaceId": "namespace-6yo3keyl",
+          "ReqTotalQty": null,
+          "ReqAvgQty": null,
+          "ReqSuccessRate": null,
+          "ReqAvgDuration": null,
+          "EdgeList": []
+        },
+        {
+          "Id": "jcgl_log_namespace_6yo3keyl_ll",
+          "Name": "jcgl-log-ll",
+          "Type": "ms",
+          "NamespaceId": "namespace-6yo3keyl",
+          "ReqTotalQty": null,
+          "ReqAvgQty": null,
+          "ReqSuccessRate": null,
+          "ReqAvgDuration": null,
+          "EdgeList": []
+        },
+        {
+          "Id": "jcgl_log_namespace_6yo3keyl_cc",
+          "Name": "jcgl-log-cc",
+          "Type": "ms",
+          "NamespaceId": "namespace-6yo3keyl",
+          "ReqTotalQty": null,
+          "ReqAvgQty": null,
+          "ReqSuccessRate": null,
+          "ReqAvgDuration": null,
+          "EdgeList": []
+        },
+        {
+          "Id": "jcgl_microservice_namespace_6yo3keyl_ms",
+          "Name": "jcgl-microservice",
+          "Type": "ms",
+          "NamespaceId": "namespace-6yo3keyl",
+          "ReqTotalQty": null,
+          "ReqAvgQty": null,
+          "ReqSuccessRate": null,
+          "ReqAvgDuration": null,
+          "EdgeList": []
+        },
+        {
+          "Id": "ybzx_gateway_namespace_6yo3keyl_ms",
+          "Name": "ybzx-gateway",
+          "Type": "ms",
+          "NamespaceId": "namespace-6yo3keyl",
+          "ReqTotalQty": 1197,
+          "ReqAvgQty": 0.13,
+          "ReqSuccessRate": 0.98,
+          "ReqAvgDuration": 88.41,
+          "EdgeList": [
+            {
+              "SourceId": "jcgl_log_namespace_6yo3keyl_ms",
+              "TargetId": "ybzx_gateway_namespace_6yo3keyl_ms",
+              "SourceName": "jcgl-log",
+              "TargetName": "ybzx-gateway",
+              "SourceType": "ms",
+              "TargetType": "ms",
+              "SourceNamespaceId": "namespace-6yo3keyl",
+              "TargetNamespaceId": "namespace-6yo3keyl",
+              "ReqTotalQty": 3845324,
+              "ReqAvgQty": 425.94,
+              "ReqSuccessRate": 1.0,
+              "ReqAvgDuration": 6.6,
+              "Apdex": 1.0
+            }
+          ]
+        },
+        {
+          "Id": "jcgl_support_namespace_6yo3keyl_ms",
+          "Name": "jcgl-support",
+          "Type": "ms",
+          "NamespaceId": "namespace-6yo3keyl",
+          "ReqTotalQty": 9854474,
+          "ReqAvgQty": 1091.56,
+          "ReqSuccessRate": 1.0,
+          "ReqAvgDuration": 5.5,
+          "EdgeList": [
+            {
+              "SourceId": "jcgl_log_namespace_6yo3keyl_ms",
+              "TargetId": "jcgl_support_namespace_6yo3keyl_ms",
+              "SourceName": "jcgl-log",
+              "TargetName": "jcgl-support",
+              "SourceType": "ms",
+              "TargetType": "ms",
+              "SourceNamespaceId": "namespace-6yo3keyl",
+              "TargetNamespaceId": "namespace-6yo3keyl",
+              "ReqTotalQty": 3845324,
+              "ReqAvgQty": 425.94,
+              "ReqSuccessRate": 1.0,
+              "ReqAvgDuration": 6.6,
+              "Apdex": 1.0
+            },
+            {
+              "SourceId": "ybzx_gateway_namespace_6yo3keyl_ms",
+              "TargetId": "jcgl_support_namespace_6yo3keyl_ms",
+              "SourceName": "ybzx-gateway",
+              "TargetName": "jcgl-support",
+              "SourceType": "ms",
+              "TargetType": "ms",
+              "SourceNamespaceId": "namespace-6yo3keyl",
+              "TargetNamespaceId": "namespace-6yo3keyl",
+              "ReqTotalQty": 11,
+              "ReqAvgQty": 0.0,
+              "ReqSuccessRate": 1.0,
+              "ReqAvgDuration": 42.68,
+              "Apdex": 1.0
+            },
+            {
+              "SourceId": "jcgl_microservice_namespace_6yo3keyl_ms",
+              "TargetId": "jcgl_support_namespace_6yo3keyl_ms",
+              "SourceName": "jcgl-microservice",
+              "TargetName": "jcgl-support",
+              "SourceType": "ms",
+              "TargetType": "ms",
+              "SourceNamespaceId": "namespace-6yo3keyl",
+              "TargetNamespaceId": "namespace-6yo3keyl",
+              "ReqTotalQty": 9,
+              "ReqAvgQty": 0.0,
+              "ReqSuccessRate": 1.0,
+              "ReqAvgDuration": 17.82,
+              "Apdex": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "message": "success"
+}
