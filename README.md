@@ -8,4 +8,5 @@
 - 支持整图缩放、移动
 - 全屏
 
+访问地址：https://ywyanbin.github.io/vue-echarts/dist/index.html
 
